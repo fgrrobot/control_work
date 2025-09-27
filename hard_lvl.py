@@ -27,4 +27,5 @@ if int(data[2]) % 4 == 0:
 if int(data[0]) > days_in_months[int(data[1])-1] and int(data[0]) <= 0:
     print("даты не существует")
 else:
+
     print("дата существует")
